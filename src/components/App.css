@@ -51,7 +51,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: black
+  color: black;
 }
 
 .removeBtn {
