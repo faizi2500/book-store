@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bookSection {
+  border: 1px solid white;
+  height: 450px;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(211, 210, 210);
+}
+
+.navbar {
+  width: 20%;
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-inline: 20px;
+}
+
+.fullNav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+input {
+  width: 35%;
+  height: 35px;
+}
+
+.addBtn {
+  width: 15%;
+  height: 43px;
+}
+
+.formStyle input {
+  margin-inline: 10px;
+}
+
+.bookRow {
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.removeBtn {
+  width: 15%;
+  height: 35px;
+}
+
+.bookDisplay {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+}
