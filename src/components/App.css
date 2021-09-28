@@ -34,8 +34,34 @@
 
 input {
   width: 35%;
+  height: 35px;
+}
+
+.addBtn {
+  width: 15%;
+  height: 43px;
 }
 
 .formStyle input {
   margin-inline: 10px;
+}
+
+.bookRow {
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black
+}
+
+.removeBtn {
+  width: 15%;
+  height: 35px;
+}
+
+.bookDisplay {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
 }

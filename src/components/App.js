@@ -6,6 +6,23 @@ import Navigation from './Navigation';
 import Input from './Input';
 
 function App() {
+  const books = [
+    {
+      id: 1,
+      title: 'Book 1',
+      completed: '67%',
+    },
+    {
+      id: 2,
+      title: 'Book 2',
+      completed: '77%',
+    },
+    {
+      id: 3,
+      title: 'Book 3',
+      completed: '45%',
+    },
+  ];
   return (
     <>
       <Navigation />
@@ -15,7 +32,7 @@ function App() {
         </Route>
         <Route exact path="/">
           <div className="App">
-            <Books />
+            <Books bookList={books} />
             <Input />
           </div>
         </Route>
