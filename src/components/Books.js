@@ -12,7 +12,9 @@ const Books = (props) => {
             <div key={book.id} className="bookRow">
               <div className="bookDisplay">
                 <h3>{name}</h3>
-                <p>{book.completed}</p>
+                <p>
+                  {book.author}
+                </p>
               </div>
               <button type="submit" className="removeBtn">Remove</button>
             </div>
