@@ -11,8 +11,7 @@ const Books = ({ bookList, removeBookProp }) => (
 );
 
 Books.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  bookList: PropTypes.array.isRequired,
+  bookList: PropTypes.node.isRequired,
   removeBookProp: PropTypes.func.isRequired,
 };
 

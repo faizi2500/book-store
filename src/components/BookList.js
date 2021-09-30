@@ -6,7 +6,7 @@ const BookList = ({ book, removeBookProp }) => (
     <div className="bookDisplay">
       <h3>{book.title}</h3>
       <p>
-        {book.author}
+        {book.category}
       </p>
     </div>
     <button type="submit" className="removeBtn" onClick={() => removeBookProp(book.id)}>Remove</button>
@@ -14,8 +14,7 @@ const BookList = ({ book, removeBookProp }) => (
 );
 
 BookList.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  book: PropTypes.object.isRequired,
+  book: PropTypes.node.isRequired,
   removeBookProp: PropTypes.func.isRequired,
 };
 
