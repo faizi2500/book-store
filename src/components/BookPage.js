@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import Input from './Input';
 import Books from './Books';
-import { addBook, removeBook } from '../redux/bookstore/booksRedux';
+import { addBook, removeBook, getAll } from '../redux/bookstore/booksRedux';
 
 const BookPage = () => {
-  const list = useSelector((state) => state.booksReducer);
   const dispatch = useDispatch();
 
   const submitBookToStore = (title, author) => {
@@ -19,6 +18,12 @@ const BookPage = () => {
     // dispatch an action and pass it the newBook object (your action's payload)
     dispatch(addBook(newBook));
   };
+
+  useEffect(() => {
+    dispatch(getAll());
+  }, []);
+
+  const list = useSelector((state) => state.booksReducer);
 
   const deleteBook = (id) => dispatch(removeBook(id));
 

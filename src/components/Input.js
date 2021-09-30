@@ -15,7 +15,6 @@ const Input = (props) => {
         title: '',
         author: '',
       });
-      console.log(input.title, input.author);
     }
   };
 

@@ -1,22 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import BookList from './BookList';
 
 const Books = ({ bookList, removeBookProp }) => (
   <section className="bookSection">
-    {bookList.map((book) => {
-      const name = book.title;
-      return (
-        <div key={book.id} className="bookRow">
-          <div className="bookDisplay">
-            <h3>{name}</h3>
-            <p>
-              {book.author}
-            </p>
-          </div>
-          <button type="submit" className="removeBtn" onClick={() => removeBookProp(book.id)}>Remove</button>
-        </div>
-      );
-    })}
+    {bookList.map((book) => (
+      <BookList key={book.id} book={book} removeBookProp={removeBookProp} />
+    ))}
   </section>
 );
 
