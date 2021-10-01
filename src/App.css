@@ -27,9 +27,18 @@
 .fullNav {
   width: 80%;
   margin: auto;
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 90% 10% ;
   align-items: center;
+}
+
+.first-half {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  font-size: 30px;
 }
 
 input {

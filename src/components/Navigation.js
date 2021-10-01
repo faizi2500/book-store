@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FaUserCircle } from 'react-icons/fa';
 
 const Navigation = () => {
   const links = [
@@ -18,14 +19,19 @@ const Navigation = () => {
   return (
     <>
       <nav className="fullNav">
-        <h1>BookStore CRM</h1>
-        <ul className="navbar">
-          {links.map((link) => (
-            <li key={link.path}>
-              <NavLink to={link.path}>{link.text}</NavLink>
-            </li>
-          ))}
-        </ul>
+        <div className="first-half">
+          <h1>BookStore CRM</h1>
+          <ul className="navbar">
+            {links.map((link) => (
+              <li key={link.path}>
+                <NavLink to={link.path}>{link.text}</NavLink>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div cl>
+          <FaUserCircle className="user" />
+        </div>
       </nav>
     </>
   );
