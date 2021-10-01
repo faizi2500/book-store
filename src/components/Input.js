@@ -4,16 +4,16 @@ import PropTypes from 'prop-types';
 const Input = (props) => {
   const [input, setInput] = useState({
     title: '',
-    author: '',
+    category: '',
   });
 
   const submitForm = (e) => {
     e.preventDefault();
-    if (input.title.trim() && input.author.trim()) {
-      props.addBooks(input.title, input.author);
+    if (input.title.trim() && input.category.trim()) {
+      props.addBooks(input.title, input.category);
       setInput({
         title: '',
-        author: '',
+        category: '',
       });
     }
   };
@@ -28,7 +28,7 @@ const Input = (props) => {
       <h2 className="form-heading">Add New Book</h2>
       <form className="formStyle">
         <input type="text" placeholder="Book Title" onChange={inputChange} value={input.title} name="title" className="book-entry" />
-        <input type="text" placeholder="Category" onChange={inputChange} value={input.author} name="author" className="book-category" />
+        <input type="text" placeholder="Category" onChange={inputChange} value={input.category} name="category" className="book-category" />
         {/* <div className="addBtn"> */}
         <button type="submit" className="addBtn" onClick={submitForm}>
           <span className="btnText">

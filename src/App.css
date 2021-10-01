@@ -22,6 +22,10 @@
   margin-inline: 20px;
 }
 
+.navbar li:hover {
+  color: #4386bf;
+}
+
 .fullNav {
   width: 90%;
   margin: auto;
@@ -143,7 +147,7 @@
 .parentBook {
   margin: 2%;
   display: grid;
-  grid-template-columns: 40% 30% 30%;
+  grid-template-columns: 40% 20% 20%;
   justify-content: space-between;
   align-items: center;
   color: black;
@@ -167,10 +171,12 @@
 .bookActions {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .bookActions > * {
+  margin: 0;
   margin-right: 2%;
   cursor: pointer;
 }
@@ -181,11 +187,19 @@
 }
 
 .removeBtn {
-  width: 15%;
+  width: 75%;
   height: 35px;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #0290ff;
+}
+
+.text-progress {
+  text-align: left;
+}
+
+.align-btn {
+  margin-bottom: 10px;
 }
 
 .rmvBtnText {
@@ -235,4 +249,69 @@
   border: 5px solid #0290ff;
   border-left: 5px solid #ddd;
   transform: rotate(38deg);
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.updateProgress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.author {
+  font-family: RobotoSlab;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.bookCTA {
+  cursor: pointer;
+  font-family: RobotoSlab;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.separator {
+  width: 0.125rem;
+  height: 1.5rem;
+  border: solid 1px #e8e8e8;
+}
+
+.current-chapter {
+  opacity: 0.5;
+  font-family: RobotoSlab;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.chapterNumber {
+  font-family: RobotoSlab;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
 }

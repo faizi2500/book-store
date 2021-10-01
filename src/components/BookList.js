@@ -21,21 +21,23 @@ const BookList = ({ book, removeBookProp }) => (
       <div className="bookDetails">
         <p>{book.category}</p>
         <h2>{book.title}</h2>
-        <p>Author</p>
+        <p className="author">Author</p>
       </div>
       <div className="bookActions">
-        <p>Comments</p>
-        <p>|</p>
-        <button className="removeAction" type="button" onClick={() => removeBookProp(book.id)}>
-          Remove
-        </button>
-        <p>|</p>
-        <p>Edit</p>
+        <p className="bookCTA">Comments</p>
+        <p className="separator" />
+        <div className="align-btn">
+          <button className="removeAction bookCTA" type="button" onClick={() => removeBookProp(book.id)}>
+            Remove
+          </button>
+        </div>
+        <p className="separator" />
+        <p className="bookCTA">Edit</p>
       </div>
     </div>
     <div className="progress">
       <div className="oval-2" />
-      <p>
+      <p className="text-progress">
         74%
         <br />
         Completed
@@ -43,10 +45,12 @@ const BookList = ({ book, removeBookProp }) => (
     </div>
 
     <div className="updateProgress">
-      <p>CURRENT CHAPTER</p>
-      <p>Chapter 17</p>
+      <div className="text-progress">
+        <p className="current-chapter">CURRENT CHAPTER</p>
+        <p className="chapterNumber">Chapter 17</p>
+      </div>
       <button type="submit" className="removeBtn">
-        <span className="rmvBtnText">Remove</span>
+        <span className="rmvBtnText">UPDATE PROGRESS</span>
       </button>
     </div>
 
