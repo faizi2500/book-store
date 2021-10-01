@@ -24,11 +24,18 @@ const Input = (props) => {
 
   return (
     <>
-      <h2>Add Book</h2>
+      <hr className="line" />
+      <h2 className="form-heading">Add New Book</h2>
       <form className="formStyle">
-        <input type="text" placeholder="Name of Book" onChange={inputChange} value={input.title} name="title" />
-        <input type="text" placeholder="Name of Author" onChange={inputChange} value={input.author} name="author" />
-        <button type="submit" className="addBtn" onClick={submitForm}>Add Book</button>
+        <input type="text" placeholder="Book Title" onChange={inputChange} value={input.title} name="title" className="book-entry" />
+        <input type="text" placeholder="Category" onChange={inputChange} value={input.author} name="author" className="book-category" />
+        {/* <div className="addBtn"> */}
+        <button type="submit" className="addBtn" onClick={submitForm}>
+          <span className="btnText">
+            ADD BOOK
+          </span>
+        </button>
+        {/* </div> */}
       </form>
     </>
   );
