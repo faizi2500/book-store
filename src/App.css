@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -43,6 +46,7 @@
   width: 15rem;
   height: 2.313rem;
   margin: 0.375rem 1rem 0.125rem 0;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -56,6 +60,7 @@
   width: 3.688rem;
   height: 1rem;
   margin: 1.125rem 2.563rem 0.688rem 0;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
@@ -105,6 +110,7 @@
 }
 
 .btnText {
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: bold;
   font-stretch: normal;
@@ -200,6 +206,7 @@
 }
 
 .rmvBtnText {
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -223,6 +230,7 @@
   /* width: 80%; */
   height: 1.5rem;
   margin: 1.813rem 32.75rem 1.188rem 3%;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -261,6 +269,7 @@
 }
 
 .author {
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -272,6 +281,7 @@
 
 .bookCTA {
   cursor: pointer;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -289,6 +299,7 @@
 
 .current-chapter {
   opacity: 0.5;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -299,6 +310,7 @@
 }
 
 .chapterNumber {
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
