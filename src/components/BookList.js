@@ -1,20 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// const BookList = ({ book, removeBookProp }) => (
-//   <div key={book.id} className="bookRow">
-//     <div className="bookDisplay">
-//       <h3>{book.title}</h3>
-//       <p>
-//         {book.category}
-//       </p>
-//     </div>
-//     <button type="submit" className="removeBtn" onClick={() => removeBookProp(book.id)}>
-//       <spam className="rmvBtnText">Remove</spam>
-//     </button>
-//   </div>
-// );
-
 const BookList = ({ book, removeBookProp }) => (
   <div key={book.id} className="parentBook">
     <div className="col-1">
