@@ -8,14 +8,12 @@ import { addBook, removeBook, getAll } from '../redux/bookstore/booksRedux';
 const BookPage = () => {
   const dispatch = useDispatch();
 
-  const submitBookToStore = (title, author) => {
+  const submitBookToStore = (title, category) => {
     const newBook = {
       id: uuidv4(),
       title,
-      author,
+      category,
     };
-
-    // dispatch an action and pass it the newBook object (your action's payload)
     dispatch(addBook(newBook));
   };
 
