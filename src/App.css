@@ -30,7 +30,7 @@
   width: 90%;
   margin: auto;
   display: grid;
-  grid-template-columns: 90% 10% ;
+  grid-template-columns: 90% 10%;
   align-items: center;
 }
 
@@ -43,7 +43,6 @@
   width: 15rem;
   height: 2.313rem;
   margin: 0.375rem 1rem 0.125rem 0;
-  font-family: Montserrat;
   font-size: 1.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -57,7 +56,6 @@
   width: 3.688rem;
   height: 1rem;
   margin: 1.125rem 2.563rem 0.688rem 0;
-  font-family: Montserrat;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
@@ -90,7 +88,7 @@
   width: 1.163rem;
   height: 1.163rem;
   align-items: center;
-  margin-top: 30%; 
+  margin-top: 30%;
 }
 
 /* input {
@@ -104,11 +102,9 @@
   border-radius: 3px;
   border-color: transparent;
   background-color: #0290ff;
-  
 }
 
 .btnText {
-  font-family: RobotoSlab;
   font-size: 0.813rem;
   font-weight: bold;
   font-stretch: normal;
@@ -133,7 +129,6 @@
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
-
 }
 
 .formStyle {
@@ -153,6 +148,7 @@
   align-items: center;
   color: black;
   border: 1px solid #e8e8e8;
+
   /* background-color: rgb(211, 210, 210); */
   border-radius: 4px;
   padding: 2%;
@@ -204,7 +200,6 @@
 }
 
 .rmvBtnText {
-  font-family: RobotoSlab;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -224,10 +219,10 @@
 
 .form-heading {
   width: 10.875rem;
+
   /* width: 80%; */
   height: 1.5rem;
   margin: 1.813rem 32.75rem 1.188rem 3%;
-  font-family: Montserrat;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -266,7 +261,6 @@
 }
 
 .author {
-  font-family: RobotoSlab;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -278,7 +272,6 @@
 
 .bookCTA {
   cursor: pointer;
-  font-family: RobotoSlab;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -296,7 +289,6 @@
 
 .current-chapter {
   opacity: 0.5;
-  font-family: RobotoSlab;
   font-size: 0.813rem;
   font-weight: 300;
   font-stretch: normal;
@@ -307,7 +299,6 @@
 }
 
 .chapterNumber {
-  font-family: RobotoSlab;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
