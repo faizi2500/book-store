@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magician App
+# Book Store CRM
 
 > It is a Single Page Application (SPA) for individuals who love to read. It allows you to keep a consolidated list of books that you want to complete. Apart from that, one of the amazing functionality of this project is to sharee progress i.e. how much of the book you have completed in terms of percentage.
 
