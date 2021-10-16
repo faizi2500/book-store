@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ###  Book-store
-![screenshot](./public/Book-Store-CRM.png)
+![screenshot](./public/book-store.png)
 
 ## Description
 - This project is about a bookstore where user can store the title and choose category of thier favourite books, and can also remove books, 
