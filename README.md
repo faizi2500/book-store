@@ -1,26 +1,36 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Book Store CRM
+###  Book-store
+![screenshot](./public/Book-Store-CRM.png)
 
-> It is a Single Page Application (SPA) for individuals who love to read. It allows you to keep a consolidated list of books that you want to complete. Apart from that, one of the amazing functionality of this project is to sharee progress i.e. how much of the book you have completed in terms of percentage.
+## Description
+- This project is about a bookstore where user can store the title and choose category of thier favourite books, and can also remove books, 
 
-# Built With
-
-- React
-- Redux
+## Built With
+This project is build with:
 - CSS
+- React
 
-## Getting Started
+<img alt="NETLIFY" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" /> 
 
-To get a local copy up and running follow these simple example steps.
+[Link](https://book-store-crm.netlify.app/)
 
-`git clone git@github.com:faizi2500/book-store.git`
+## Getting Started;
 
-Type `cd book-store` to access the project on the terminal.
+To get the content of this project locally you need to run this command in your terminal:
+- ` git clone git@github.com:faizi2500/book-store.git`
 
-Run `npm install` from your editor's terminal.
+For tracking linter errors locally you need to follow these steps:
+- After cloning the project you need to run this command
+  > `npm install`
+  > This command will download all the dependancies 
 
-Run `npm start` to open live server where you can see your changes
+- For tracking the linter errors in JavaScript file run:
+  > `npx eslint .`
+- And for tracking the linter errors in CSS file run:
+  > `npx stylelint "\*_/_.{css,scss}"`
+
+## Author
 
 👤 **Faizan Zahid**
 
@@ -28,16 +38,14 @@ Run `npm start` to open live server where you can see your changes
 - Twitter: [@faizi_250 ](https://twitter.com/Faizy_250)
 - LinkedIn: [@faizan2500](www.linkedin.com/in/faizan2500)
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+## :handshake: Contributing
+Feel free to check the [issues page](https://github.com/julie-ify/bookstore-react/issues)
 
 ## Show your support
+Give a :star: if you like this project!
 
-Give a ⭐️ if you like this project!
+## Acknowledgments
+- Thanks to [Microverse](www.microverse.org) team that help with the tamplete of this project
 
 ## 📝 License
-
 This project is [MIT](./MIT.md) licensed.
